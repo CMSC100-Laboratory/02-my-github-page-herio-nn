@@ -1,6 +1,6 @@
 Bernard Alejandro C. Caraig\
 BS Computer Science\
-link here\
+https://cmsc100-laboratory.github.io/02-my-github-page-herio-nn/\
 Steps on how to create GitHub page\
 1. Go to your repo's settings\
 2. Under code and automation, select Pages\
