@@ -8,10 +8,13 @@
   </head>
 
   <body id="body">
+        <!-- Sidebar -->
     <div class="container">
         <aside class="sidebar">
+            <!-- Image -->
             <img src="assets/pfp.jpg" class="sidebaravatar">
             <ul>
+                <!-- Navigation buttons -->
                 <li class="nav-buttons"><a href="#aboutme">About me</a></li>
                 <li class="nav-buttons"><a href="#skillset">Skills</a></li>
                 <li class="nav-buttons"><a href="#projects">Projects</a></li>
@@ -19,12 +22,13 @@
         </aside>
 
         <main class="content">
-
+            <!-- Profile at the top of website-->
             <div class="profile-container">
                 <img src="assets/pfp.jpg" class="avatar">
                 <span class="name">herio_nn</span>
             </div>
 
+            <!-- About me section -->
             <div class="aboutme" id="aboutme">
                 <h1 class="header">About Me</h1>
                 <div class="aboutme-container">
@@ -33,26 +37,34 @@
                 </div>
             </div>
 
+            <!-- Skills section -->
             <div class="skillset" id="skillset">
                 <h1 class="header">Skills</h1>
                 <div class="skillset-container">
+                    <!-- Cat GIF with text at the side -->
                     <img src="assets/cat-computer.gif" class="side-image">
                     <p class="skills-body">Python <br>HTML <br>CSS <br>Java <br>JavaScript <br>C <br>R<br> R Shiny <br>mySQL</p>
                 </div>
             </div>
 
+            
+            <!-- Projects section -->
             <div class="projects" id="projects">
                 <h1 class="header">Projects</h1>
                 <div class="projects-container">
+                    
+                    <!-- div section (picture + text) -->
                     <div class="project-item">
                         <img src="assets/library.jpg" class="project-image">
                         <p class="project-text">Library System Software</p>
                     </div>
+                    <!-- div section (picture + text) -->
                     <div class="project-item">
                         <img src="assets/pomodoro-timer.jpg" class="project-image">
                         <p class="project-text">Simple Pomodoro <br>
                                                 and Hydration Alarm</p>
                     </div>
+                    <!-- div section (picture + text) -->
                     <div class="project-item">
                         <img src="assets/CafeTadhana Logo.png" class="project-image">
                         <p class="project-text">Cloud-based Coffee Shop
