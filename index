@@ -7,86 +7,60 @@
 
   </head>
 
-  <body>
-    
-    <nav>
-    <div class="nav_bar" >
-        <div class="flex-item" style="flex: 1">
-            <a href="/html/">HTML</a> |
-        </div>
-        <div class="flex-item" style="flex: 1">
-            <a href="/css/">CSS</a>
-        </div> 
-    |   <div class="flex-item" style="flex: 1">
-            <a href="/js/">JavaScript</a> |
-        </div>
-        <div class="flex-item" style="flex: 1">
-            <a href="/python/">Python</a>
-        </div>
-    </div>
-    </nav>
+  <body id="body">
+    <div class="container">
+        <aside class="sidebar">
+            <img src="assets/pfp.jpg" class="sidebaravatar">
+            <ul>
+                <li class="nav-buttons"><a href="#aboutme">About me</a></li>
+                <li class="nav-buttons"><a href="#skillset">Skills</a></li>
+                <li class="nav-buttons"><a href="#projects">Projects</a></li>
+            </ul>
+        </aside>
 
-    <div class="flex-container">
-        <div class="flex-item" style="flex: 3;">
-            <h1>1</h1>
-            <p>This is a paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>2</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 2;">
-            <h1>3</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 4;">
-            <h1>4</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>5</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 1;">
-            <h1>6</h1>
-            <p>This is another paragraph</p>
-        </div>
-    </div>
-    <div class="flex-container2">
-        <div class="flex-item" style="flex: 3;">
-            <h1>1</h1>
-            <p>This is a paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>2</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 2;">
-            <h1>3</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 4;">
-            <h1>4</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>5</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 1;">
-            <h1>6</h1>
-            <p>This is another paragraph</p>
-        </div>
+        <main class="content">
+
+            <div class="profile-container">
+                <img src="assets/pfp.jpg" class="avatar">
+                <span class="name">herio_nn</span>
+            </div>
+
+            <div class="aboutme" id="aboutme">
+                <h1 class="header">About Me</h1>
+                <div class="aboutme-container">
+                    <p class="aboutme-body">Hi! My name is Bernard Alejandro C. Caraig. I'm a BS Computer Science undergraduate at UPLB with a passion for Game Development and the Arts. I also code in my freetime and have finished a couple of projects. I am always looking to learn new things to improve my skills. I also do drawing as a hobby to pass the time. Apart from that, I also am fond of watching anime, reading books, and playing video games. Feel free to explore my portfolio and get in touch if you want to collaborate or just say hi!</p>
+                    <img src="assets/sideimg.jpg" class="side-image">
+                </div>
+            </div>
+
+            <div class="skillset" id="skillset">
+                <h1 class="header">Skills</h1>
+                <div class="skillset-container">
+                    <img src="assets/cat-computer.gif" class="side-image">
+                    <p class="skills-body">Python <br>HTML <br>CSS <br>Java <br>JavaScript <br>C <br>R<br> R Shiny <br>mySQL</p>
+                </div>
+            </div>
+
+            <div class="projects" id="projects">
+                <h1 class="header">Projects</h1>
+                <div class="projects-container">
+                    <div class="project-item">
+                        <img src="assets/library.jpg" class="project-image">
+                        <p class="project-text">Library System Software</p>
+                    </div>
+                    <div class="project-item">
+                        <img src="assets/pomodoro-timer.jpg" class="project-image">
+                        <p class="project-text">Simple Pomodoro <br>
+                                                and Hydration Alarm</p>
+                    </div>
+                    <div class="project-item">
+                        <img src="assets/CafeTadhana Logo.png" class="project-image">
+                        <p class="project-text">Cloud-based Coffee Shop
+                                                <br>Inventory and Order System</p>
+                    </div>
+                </div>
+            </div>
+        </main>
     </div>
   </body>
 
